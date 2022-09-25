@@ -1,0 +1,621 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+.maininput{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    /* width: 50%; */
+    /* height: 5%; */
+}
+.example{
+    border: 1px solid black;
+    width: 130%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+.first{
+    /* border: 10px solid rgb(255, 2, 2); */
+    border-left: 1px solid rgb(192, 192, 192);
+    border-right: 1px solid rgb(192, 192, 192);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 27.8%;
+
+}
+.second{
+    /* border: 10px solid rgb(9, 240, 59); */
+    position: absolute;
+    bottom: 15%;
+    right: 3%;
+    border: 1px solid rgb(189, 190, 190);
+    border-radius: 10px;
+    width: 17%;
+    height: 33%;
+    background-color: rgba(139, 139, 133, 0.253);
+}
+.third{
+    /* border: 10px solid rgb(9, 240, 59); */
+    position: absolute;
+    bottom: 49%;
+    right: 3%;
+    border: 1px solid rgb(189, 190, 190);
+    border-radius: 10px;
+    width: 17%;
+    height: 42%;
+  }
+  /* .four{
+    border-top: 1px solid rgb(189, 190, 190); 
+    position: absolute;
+    left: 900%;
+    bottom: 10%; */
+  /* } */
+.parisa {
+    position: absolute;
+    left: 450px;
+    top: 1px;
+}
+
+.tweet {
+    position: absolute;
+    top: 25px;
+    left: 450px;
+    top: 16px;
+}
+.fear{
+    position: absolute;
+    top: 3%;
+    left: 23%;
+}
+
+.cover {
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    height: 300px;
+    width: 900px;
+}
+
+.dp {
+    position: absolute;
+    top: 300px;
+    left: 450px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.follow {
+    position: absolute;
+    top: 370px;
+    right: 530px;
+    width: 4%;
+    border-radius: 40%;
+    background-color: black;
+    color: white;
+    height: 4%;
+    outline: none;
+}
+
+.name {
+    position: absolute;
+    top: 440px;
+    left: 470px;
+    width: 800px;
+}
+
+.personal {
+    position: absolute;
+    top: 480px;
+    left: 470px;
+    width: 800px;
+}
+
+.location {
+    position: absolute;
+    top: 550px;
+    left: 470px;
+    width: 800px;
+}
+
+.link {
+    position: absolute;
+    top: 552px;
+    left: 800px;
+    width: 800px;
+    color: blue;
+}
+
+.joined {
+    position: absolute;
+    top: 552px;
+    left: 1150px;
+    width: 800px;
+}
+
+.one {
+    position: absolute;
+    top: 600px;
+    right: 450px;
+    width: 800px;
+}
+
+.two {
+    position: absolute;
+    top: 600px;
+    right: 200px;
+    width: 800px;
+}
+
+.three {
+    position: absolute;
+    top: 600px;
+    left: 995px;
+    width: 800px;
+}
+
+.four {
+    position: absolute;
+    top: 600px;
+    left: 1200px;
+    width: 800px;
+}
+
+.fa-solid {
+    position: absolute;
+    top: 553px;
+    left: 450px;
+    height: 17px;
+    width: 35px
+}
+
+.fa-link {
+    position: absolute;
+    top: 553px;
+    left: 775px;
+    height: 17px;
+    width: 30px
+}
+
+.fa-trash {
+    position: absolute;
+    top: 553px;
+    left: 1130px;
+    height: 17px;
+    width: 30px
+}
+
+.dd {
+    position: absolute;
+    top: 630px;
+    left: 450px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.h3 {
+    position: absolute;
+    top: 620px;
+    left: 550px;
+    height: 17px;
+    width: 30px
+}
+
+.inline {
+    position: absolute;
+    top: 624px;
+    left: 650px;
+    height: 17px;
+    width: 30px
+}
+
+.offline {
+    position: absolute;
+    top: 624px;
+    left: 780px;
+    height: 17px;
+    width: 30px
+}
+
+.ee {
+    position: absolute;
+    top: 637px;
+    left: 550px;
+    height: 17px;
+    width: 30px;
+    color: blue;
+}
+
+.gg {
+    position: absolute;
+    top: 655px;
+    left: 550px;
+    height: 17px;
+    width: 30px;
+    color: blue;
+}
+
+.hh {
+    position: absolute;
+    top: 660px;
+    left: 635px;
+    height: 17px;
+    width: 30px
+}
+
+.fa-message {
+    position: absolute;
+    top: 701px;
+    left: 600px;
+    height: 17px;
+    width: 35px
+}
+
+.kk {
+    position: absolute;
+    top: 700px;
+    left: 750px;
+    height: 17px;
+    width: 35px
+}
+
+.ll {
+    position: absolute;
+    top: 700px;
+    left: 960px;
+    height: 17px;
+    width: 25px
+}
+
+.oo {
+    position: absolute;
+    top: 700px;
+    left: 1160px;
+    height: 17px;
+    width: 50px
+}
+
+.ff {
+    position: absolute;
+    top: 740px;
+    left: 450px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.h4 {
+    position: absolute;
+    top: 730px;
+    left: 550px;
+    height: 17px;
+    width: 30px
+}
+
+.inline1 {
+    position: absolute;
+    top: 735px;
+    left: 650px;
+    height: 17px;
+    width: 30px
+}
+
+.offline1 {
+    position: absolute;
+    top: 737px;
+    left: 780px;
+    height: 17px;
+    width: 30px
+}
+
+.ee1 {
+    position: absolute;
+    top: 750px;
+    left: 550px;
+    height: 17px;
+    width: 30px;
+    color: blue;
+}
+
+.gg1 {
+    position: absolute;
+    top: 765px;
+    left: 550px;
+    height: 17px;
+    width: 30px;
+    color: blue;
+}
+
+.hh1 {
+    position: absolute;
+    top: 770px;
+    left: 635px;
+    height: 17px;
+    width: 30px
+}
+
+.ii1 {
+    position: absolute;
+    top: 810px;
+    left: 590px;
+    height: 17px;
+    width: 35px
+}
+
+.kk1 {
+    position: absolute;
+    top: 810px;
+    left: 750px;
+    height: 17px;
+    width: 35px
+}
+
+.ll1 {
+    position: absolute;
+    top: 810px;
+    left: 960px;
+    height: 17px;
+    width: 25px
+}
+
+.oo1 {
+    position: absolute;
+    top: 810px;
+    left: 1160px;
+    height: 17px;
+    width: 50px
+}
+
+.jtwitter{
+    position: absolute;
+    top: 7px;
+    left: 240px;
+    
+    color: rgb(13, 247, 255);
+    /* background-color: aqua; */
+}
+
+.qq {
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    height: 10px;
+    width: 50px;
+    display: inline-block;
+}
+
+.rr {
+    position: absolute;
+    top: 50px;
+    left: 230px;
+    height: 10px;
+    width: 50px;
+    display: inline-block;
+}
+
+.ss {
+    position: absolute;
+    top: 135px;
+    left: 195px;
+    height: 10px;
+    width: 50px;
+    font-size: 200px;
+}
+.icon1{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 2px;
+    background-color: aqua;
+}
+
+.tt {
+    position: absolute;
+    top: 110px;
+    left: 230px;
+    height: 10px;
+    width: 50px;
+}
+
+.maininput {
+    border: 1px solid rgb(173, 240, 240);
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(173, 240, 240);
+    border-radius: 20px;
+    padding: 0.5em;
+    position: absolute;
+    right: 130px;
+}
+
+.inputfield {
+    border: none;
+    background-color: rgb(173, 240, 240);
+    outline: none;
+    text-align: center;
+
+}
+
+.z {
+    position: absolute;
+    top: 50px;
+    right: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.x {
+    position: absolute;
+    top: 90px;
+    right: 75px;
+}
+
+.ww {
+    position: absolute;
+    top: 150px;
+    right: 70px;
+    background-image: url(images/google.png);
+    background-repeat: no-repeat;
+    position: left;
+    padding-left: 10px;
+    background-size: 30px;
+    width: 270px;
+    height: 50px;
+    border: none;
+    border-radius: 10%;
+    text-align: center;
+    background-color: rgb(202, 243, 243)
+}
+
+.xx {
+    position: absolute;
+    top: 210px;
+    right: 70px;
+    background-image: url(images/apple.png);
+    background-repeat: no-repeat;
+    position: left;
+    padding-left: 10px;
+    background-size: 30px;
+    width: 270px;
+    height: 50px;
+    border-radius: 10%;
+    text-align: center;
+    background-color: rgb(202, 243, 243);
+    border: none;
+}
+
+.yy {
+    position: absolute;
+    top: 270px;
+    right: 70px;
+    width: 280px;
+    height: 50px;
+    border-radius: 10%;
+    text-align: center;
+    background-color: rgb(202, 243, 243);
+    border: none;
+}
+
+.zz {
+    position: absolute;
+    top: 320px;
+    right: 80px;
+    width: 15.5%;
+}
+
+.aaa {
+    position: absolute;
+    top: 400px;
+    right: 80px;
+    width: 15.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-gear{
+    position: absolute;
+    top: 53%;
+    left: 92.5%;
+    width: 7%;
+}
+
+.ccc {
+    position: absolute;
+    top: 460px;
+    right: 220px;
+}
+
+.stroke1{
+    position: absolute;
+    top: 452px;
+    right: 100px;
+    width: 30px;
+}
+
+.stroke2 {
+    position: absolute;
+    top: 522px;
+    right: 100px;
+    width: 30px;
+}
+
+.stroke3 {
+    position: absolute;
+    top: 595px;
+    right: 100px;
+    width: 30px;
+}
+
+.rat {
+    color: blue;
+}
+.fa-solid{
+    /* border: 10px solid black; */
+}
+.maininputone{
+    border: 1px solid black;
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    padding: 0.5em;
+    position: absolute;
+    right: 110px;
+    top: 18%;
+    /* width: 5%; */
+}
+.inputfieldone{
+    border: none;
+    /* background-color: aqua; */
+    outline: none;
+    text-align: center;
+
+}
+.maininputtwo{
+    border: 1px solid black;
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    padding: 0.5em;
+    position: absolute;
+    right: 110px;
+    top: 200px;
+}
+.inputfieldtwo{
+    border: none;
+    /* background-color: aqua; */
+    outline: none;
+    text-align: center;
+
+}
+/* .maininputthree{ */
+    /* border: 1px solid black; */
+    /* width: fit-content; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* background-color: aqua; */
+    /* border-radius: 20px; */
+    /* padding: 0.5em; */
+    /* position: absolute; */
+    /* right: 120px; */
+    /* top: 270px; */
+
+
+.inputfieldthree{
+    border: 1px solid black;
+    /* background-color: aqua; */
+    outline: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 0.5em;
+    position: absolute;
+    right: 110px;
+    top: 262px;
+    width: 11.5%;
+    height: 4%;
+
+}
